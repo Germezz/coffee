@@ -1,0 +1,47 @@
+.aboutCoffee {
+  padding: 70px 0px;
+  position: relative;
+  &::after {
+    content: '';
+    width: 240px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+  }
+}
+.aboutCoffeeWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  text-align: center;
+}
+.textWrap {
+  max-width: 350px;
+}
+.headtext {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.wrap {
+    margin-top: 30px;
+    >*:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+}
+.picture {
+  width: 332px;
+  height: 415px;
+}
+

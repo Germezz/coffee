@@ -1,0 +1,14 @@
+.ourCoffee {
+    background: url(../assets/image/ourBanner.jpg) no-repeat;
+    background-size: cover;
+}
+.mainText {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+}

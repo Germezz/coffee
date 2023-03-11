@@ -1,0 +1,15 @@
+.cardsWrap {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 20px;
+    justify-content: center;
+}
+.error {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

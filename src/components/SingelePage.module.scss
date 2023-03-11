@@ -1,0 +1,79 @@
+.ourCoffee {
+  background: url(../assets/image/ourBanner.jpg) no-repeat;
+  background-size: cover;
+}
+.mainText {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 260px;
+}
+.headtext {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.about {
+  padding: 70px 0px 30px 0px;
+}
+.wrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+.leftBlock {
+  flex: 48%;
+  margin-top: -30px;
+}
+.rightBlock {
+  flex: 48%;
+}
+.wrapContent {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 25px;
+  > *:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.contentPrice {
+  span {
+    font-size: 24px;
+  }
+}
+.back {
+  color: black;
+  &:hover {
+    color: burlywood;
+    .arrowBack {
+      color: burlywood;
+    }
+  }
+}
+.arrowBack {
+  font-size: 20px;
+  transform: translateY(25%);
+  margin-right: 5px;
+}
+.errorWrap {
+  background: url(../assets/image/plesure.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.error {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
